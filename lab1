@@ -6,10 +6,6 @@ int gcd(int m,int n)
     {
         return m;
     }
-    else if(m<n)
-    {
-        return(n,m);
-    }
     else
     {
         return gcd(n,m%n);
